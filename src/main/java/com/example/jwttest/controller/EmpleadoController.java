@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("empleado")
-@CrossOrigin(origins = "https://mi-pistio-front.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class EmpleadoController {
 
     @Autowired

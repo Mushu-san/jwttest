@@ -15,7 +15,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("rol")
-@CrossOrigin(origins = "https://mi-pistio-front.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class RolController {
 
     @Autowired

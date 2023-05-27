@@ -27,7 +27,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("queja")
-@CrossOrigin(origins = "https://mi-pistio-front.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class QuejaController {
 
     @Autowired

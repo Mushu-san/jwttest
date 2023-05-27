@@ -26,7 +26,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("user")
-@CrossOrigin(origins = "https://mi-pistio-front.herokuapp.com")
+@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     private UserService userService;
