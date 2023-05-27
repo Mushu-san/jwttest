@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("prueba")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://mi-pistio-front.herokuapp.com")
 public class PruebaController {
 
     private final StorageService storageService;
